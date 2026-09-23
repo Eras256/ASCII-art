@@ -1,0 +1,7 @@
+Title: Your Piece Title
+Artist: @your-github-handle
+Category: payments
+Description: One short sentence about your piece (optional).
+---
+   Replace these lines with your ASCII art.
+   Keep it within 80 columns and 40 lines.

@@ -1,0 +1,14 @@
+Title: Terminal Payment
+Artist: @bibschan
+Category: tech
+Description: A laptop sending a payment from the command line.
+---
+   .------------------------.
+   |  $ pay --amount 5 USD  |
+   |  > payment sent!       |
+   |  > _                   |
+   |                        |
+   '------------------------'
+  /  ::::::::::::::::::::::  \
+ /  ::::::::::::::::::::::::  \
+'------------------------------'

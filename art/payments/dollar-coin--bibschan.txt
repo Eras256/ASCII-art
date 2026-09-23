@@ -1,0 +1,15 @@
+Title: Dollar Coin
+Artist: @bibschan
+Category: payments
+Description: A shiny coin, fresh from the mint.
+---
+        .-""""""-.
+      .'          '.
+     /    __||__    \
+    |    /  ||  \    |
+    |    \__||__     |
+    |       ||  \    |
+    |    \__||__/    |
+     \      ||      /
+      '.          .'
+        '-......-'

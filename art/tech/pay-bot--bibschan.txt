@@ -1,0 +1,19 @@
+Title: Pay-Bot 3000
+Artist: @bibschan
+Category: tech
+Description: A friendly robot with a coin slot where its heart should be.
+---
+         [ ]
+          |
+     .---------.
+     |  O   O  |
+     |    ^    |
+     |  \___/  |
+     '---------'
+    ___|_____|___
+   |  [$]   [=]  |
+ --|    _____    |--
+   |   |_____|   |
+   |_____________|
+      |_|   |_|
+     [___] [___]

@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Community ASCII Art</title>
+  <meta name="description" content="A community gallery of ASCII art about payments, finance, and tech.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%230d1014'/><text x='16' y='23' font-family='monospace' font-size='20' font-weight='700' text-anchor='middle' fill='%235eead4'>$</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700;800&display=swap">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="wrap hero-inner">
+      <pre class="hero-art" aria-hidden="true">        .-""""""-.
+      .'          '.
+     /    __||__    \
+    |    /  ||  \    |
+    |    \__||__     |
+    |       ||  \    |
+    |    \__||__/    |
+     \      ||      /
+      '.          .'
+        '-......-'</pre>
+      <div class="hero-text">
+        <p class="eyebrow">interledger / community</p>
+        <h1>Community ASCII Art<span class="cursor" aria-hidden="true">_</span></h1>
+        <p class="lede">Coins, wallets, robots and charts, drawn one character at a time by the community. <span id="stats"></span></p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" id="submit-link" href="https://github.com/interledger/ASCII-art#how-to-submit-your-art">Submit your art</a>
+          <button class="btn" id="surprise" type="button">Surprise me</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="toolbar">
+    <div class="wrap toolbar-inner">
+      <div class="chips" id="chips" role="group" aria-label="Filter by category"></div>
+      <label class="search">
+        <span class="visually-hidden">Search art</span>
+        <span class="search-prompt" aria-hidden="true">&gt;</span>
+        <input id="search" type="search" placeholder="search title, artist..." autocomplete="off">
+      </label>
+    </div>
+  </div>
+
+  <main class="wrap">
+    <ul class="grid" id="grid" aria-live="polite"></ul>
+    <p class="empty" id="empty" hidden></p>
+  </main>
+
+  <footer class="wrap footer">
+    <span>Made of plain text by the community.</span>
+    <a id="repo-link" href="https://github.com/interledger/ASCII-art">View on GitHub</a>
+  </footer>
+
+  <dialog class="modal" id="modal" aria-labelledby="modal-title">
+    <div class="modal-head">
+      <div>
+        <span class="tag" id="modal-tag"></span>
+        <h2 id="modal-title"></h2>
+        <p class="modal-by">by <a id="modal-artist" href="#"></a></p>
+      </div>
+      <button class="icon-btn" id="modal-close" type="button" aria-label="Close">&times;</button>
+    </div>
+    <p class="modal-desc" id="modal-desc"></p>
+    <div class="art-box modal-art"><pre id="modal-pre"></pre></div>
+    <div class="modal-actions">
+      <button class="btn btn-primary" id="copy" type="button">Copy art</button>
+      <a class="btn" id="modal-source" href="#">View file on GitHub</a>
+    </div>
+  </dialog>
+
+  <script src="app.js"></script>
+</body>
+</html>

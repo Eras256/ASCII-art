@@ -1,0 +1,16 @@
+Title: Stonks
+Artist: @bibschan
+Category: finance
+Description: A line chart that only knows one direction (eventually).
+---
+  ^
+  |                               *
+  |                             _/
+  |                   /\      _/
+  |           /\     /  \   _/
+  |     /\   /  \   /    \_/
+  |    /  \_/    \_/
+  |   /
+  |__/
+  +------------------------------------>
+     Q1        Q2        Q3        Q4

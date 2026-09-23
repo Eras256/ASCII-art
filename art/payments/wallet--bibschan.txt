@@ -1,0 +1,14 @@
+Title: Wallet
+Artist: @bibschan
+Category: payments
+Description: A wallet with a card peeking out, ready to pay.
+---
+         __________________
+        | ))   ____        |
+        |     |____|  ==== |
+   _____|__________________|____
+  |                        _____|
+  |                       | (o) |
+  |                       |_____|
+  |                             |
+  |_____________________________|
