@@ -119,19 +119,18 @@ Submissions happen through **pull requests (PRs)**. If you've never opened one b
 
 ### Option A: Entirely in your browser (no installs)
 
-1. **Fork this repo.** Click **Fork** at the top right of this page. This gives you your own copy.
-2. **Go to the right folder** in your fork, for example `art/tech/`.
-3. **Create a file.** Click **Add file → Create new file**.
-4. **Name it** `your-piece-name--your-github-handle.txt`, for example `haunted-atm--octocat.txt`. See [File format](#file-format) for the naming rules.
-5. **Paste in the header and your art.** Start from [`TEMPLATE.txt`](TEMPLATE.txt). Switch to the **Preview** tab to check the alignment. GitHub's editor uses a monospace font, so what you see is what you get.
-6. **Commit the file.** Click **Commit changes**, choose "Create a new branch", and give the branch a name like `add-haunted-atm`.
-7. **Open a pull request.** GitHub will prompt you to. Fill out the checklist in the PR description.
+1. **Go to the right folder** in this repo, for example `art/tech/`.
+2. **Create a file.** Click **Add file → Create new file**.
+3. **Name it** `your-piece-name--your-github-handle.txt`, for example `haunted-atm--octocat.txt`. See [File format](#file-format) for the naming rules.
+4. **Paste in the header and your art.** Start from [`TEMPLATE.txt`](TEMPLATE.txt). Switch to the **Preview** tab to check the alignment. GitHub's editor uses a monospace font, so what you see is what you get.
+5. **Commit the file.** Click **Commit changes**, choose "Create a new branch" if asked, and give the branch a name like `add-haunted-atm`.
+6. **Open a pull request.** GitHub will prompt you to. Fill out the checklist in the PR description.
 
 ### Option B: With git on your computer
 
 ```bash
-# 1. Fork the repo on GitHub, then clone your fork
-git clone https://github.com/<your-github-handle>/ASCII-art.git
+# 1. Clone the repo
+git clone https://github.com/interledger/ASCII-art.git
 cd ASCII-art
 
 # 2. Create a branch
