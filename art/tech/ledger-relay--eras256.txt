@@ -1,0 +1,11 @@
+Title: Ledger Relay
+Artist: @Eras256
+Category: tech
+Description: One payment hopping across independent ledgers, Interledger-style.
+---
+  .-.             .-.             .-.
+ ( A ) ===[ $ ]= ( B ) ===[ $ ]= ( C )
+  '-'             '-'             '-'
+
+     one payment, routed hop by hop
+       across independent ledgers
