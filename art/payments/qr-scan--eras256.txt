@@ -1,0 +1,12 @@
+Title: QR Scan Pay
+Artist: @Eras256
+Category: payments
+Description: Point, scan, paid.
+---
+ .----------.
+ |##.#.##.##|
+ |.#.###.#.#|        ---[ $ ]-->      .------.
+ |##.#.##.##|                        | PAID! |
+ |.#.###.#.#|                         '------'
+ '----------'
+   scan me
